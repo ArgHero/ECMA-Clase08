@@ -4,7 +4,7 @@
 // Puede realizar el CRUD: Leer, Escribir, Eliminar y Renombrar
 
 //Importamos el modulo fs
-const { error } = require('node:console');
+//const { error } = require('node:console');
 const fs = require('node:fs');
 //console.log(fs);
 
@@ -27,7 +27,7 @@ console.log(1);
 fs.readFile(filePath1,estandar,leerArchivo);
 console.log(2);
 //Elminira archivos
-fs.unlink(filePath2,mensajeError)
+//fs.unlink(filePath2,mensajeError)
 
 //Sobre escribir contenido o crea uno de no existe
 //Es mas rápido que el anterior, asi que se termina de ejecutar antes 
